@@ -1,0 +1,484 @@
+body{
+    margin: 0px;
+    background-color: white;
+    font-family: 'Quicksand', sans-serif;
+
+  
+}
+
+/* Começo da estilização do navbar */
+.bg-custom{
+    background-color:  #2B3035;
+    
+   
+}
+#navbarNavDropdown{
+    margin-right: 35px;
+}
+nav.navbar {
+    font-family: 'Quicksand', sans-serif;
+}
+.navbar navbar-expand-lg bg-custom{
+    font-family: 'Quicksand', sans-serif;
+}
+.navbar {
+    position: relative;
+    z-index: 1;
+    font-family: 'Quicksand', sans-serif;
+}
+
+.logo-img{
+    width: 120px;
+    height: 70px;
+}
+.icon-color{
+    color: rgb(14, 13, 13);
+}
+
+
+.navbar-nav .nav-item .nav-link:hover {
+    /*    background-color: #918d8d; */
+       color: #6c6e70; /* Altere a cor de fundo para o desejado */
+       transition: 0.6s;
+}
+
+.dropdown-menu {
+    background-color: white;
+   
+}
+
+/* Estilize o submenu */
+.navbar-nav .nav-item.dropdown:hover .dropdown-menu {
+    display: block;
+}
+
+.custom-button {
+    background-color: rgb(170, 164, 164);
+    border: none;
+    cursor: pointer;
+}
+
+.custom-button.round {
+    border-radius: 50%;
+    width: 50px;
+    height: 50px;
+}
+/* Fim da estilização do navbar */
+/**************container ***************************/
+/**************container ***************************/
+
+.container {
+    display: flex;
+}
+
+@media screen  and (max-width: 800px){
+    .container {
+        display: block;
+    }
+}
+
+
+.text{
+    text-align: justify;
+    margin-top: 90px;
+    margin-right: 70px;
+    margin-left: 10px;
+    font-size: 17px;
+   
+   
+    
+}
+@media screen  and (max-width: 400px){
+    .text{
+        text-align: justify;
+        margin-top: 50px;
+        margin-right: 25px;
+        margin-left: 25px;
+       
+        }
+        .text h2{
+            font-size: 18px;
+        }
+        .linha1{
+            margin-bottom: 35px;
+        }
+        .text2 h2{
+            font-size: 18x;
+        }
+        .imagem{
+            width: auto;
+            height: 400px;
+            margin-top: 50px;
+            margin-right: 10px;
+            margin-bottom: 25px;
+          }
+
+ }
+.container h2{
+    font-size: 30px;
+   
+  }
+.container p{
+    font-size: 17px;
+     
+}
+
+
+.img-fluid {
+    width: 100%; /* Defina a largura da imagem como 100% para que ela se ajuste ao tamanho do contêiner pai */
+    max-width: 500px; /* Defina uma largura máxima para a imagem, se desejar */
+    height: auto; /* Mantenha a proporção da imagem */
+    margin-top: 50px;
+    margin-right: 40px;
+    margin-bottom: 25px;
+    display: block;
+}
+
+@media screen and (max-width: 900px) {
+    .img-fluid  {
+        margin-right: 30px; /* Ajuste a margem conforme necessário para telas menores */
+    }
+}
+
+@media screen and (max-width: 300px) {
+    .img-fluid  {
+        max-width: 200px; /* Defina uma largura máxima menor para telas estreitas */
+        height: auto; /* Mantenha a proporção da imagem */
+        margin-right: 10px; /* Ajuste a margem direita para telas estreitas */
+        margin-bottom: 15px;
+        display: block; /* Mostrar a imagem em dispositivos móveis */
+        margin-left: 30; /* Remova a margem esquerda para telas estreitas */
+    }
+}
+
+@media (max-width: 768px) { /* Adapte o valor de 768px de acordo com suas necessidades */
+    .img-fluid {
+        display: none; /* Ocultar a imagem em dispositivos móveis */
+    }
+}
+
+
+
+.linha1{
+    border-top: 7px solid rgb(20, 19, 19);
+    border-radius: 4px;
+    margin-top: -6px;   
+}
+@media screen  and (max-width: 300px){
+    .linha1{
+        width: 100px;
+    }
+}
+
+/* Estilização do Conteiner2 */
+ .container2 {
+    background-color: white;
+    display: flex;
+    margin-left: 120px; /* Adicionei esta linha para criar o espaço à esquerda */
+}
+
+@media screen and (max-width: 800px) {
+    .container2 {
+        display: block;
+        margin-left: 0; /* Reset o espaço à esquerda para telas menores */
+    }
+}
+
+.text2 {
+    text-align: justify;
+    margin-top: 90px;
+    margin-right: 130px;
+    margin-left: 60px; /* Espaço à esquerda */
+}
+
+@media screen and (max-width: 400px) {
+    .text2 {
+        text-align: justify;
+        margin-top: 50px;
+        margin-right: 28px;
+        margin-left: 28px; /* Espaço à esquerda menor */
+    }
+}
+
+.container2 h2 {
+    text-transform: uppercase;
+    font-size: 28px;
+    font-family: 'Quicksand', sans-serif;
+}
+
+@media screen and (max-width: 400px) {
+    .container2 h2 {
+        text-transform: uppercase;
+        font-size: 28px;
+    }
+}
+
+.container2 p {
+    font-size: 17px;
+    font-family: 'Quicksand', sans-serif;
+}
+
+.imagem2 {
+    width: 520px;
+    height: 400px;
+    margin-top: 50px;
+    margin-left: 120px; /* Espaço à esquerda */
+    margin-bottom: 45px;
+}
+
+@media screen and (max-width: 600px) {
+    .imagem2 {
+        width: auto;
+        height: 350px;
+        margin-top: 20px;
+        margin-left: 0;
+        margin-right: -10px; /* Corrigi o valor para incluir o "px" faltando */
+        margin-bottom: 15px;
+    }
+}
+
+@media screen and (max-width: 400px) {
+    .imagem2 {
+        width: 350px;
+        height: 250px;
+        margin-top: 20px;
+        margin-left: 0;
+        margin-right: -10px; /* Corrigi o valor para incluir o "px" faltando */
+        margin-bottom: 15px;
+    }
+}
+
+/****************************container3*******************************/
+.container3 .detalhes {
+   display: flex;   
+}
+@media screen and (max-width: 500px) {
+    .container3 .detalhes {
+        display: block;
+         
+     }
+}
+.container3 .sub-titulo{
+    font-family: 'Quicksand', sans-serif;
+    font-size: 30px;
+    margin-top: 25px;
+    margin-left: 120px;   
+    text-transform: uppercase;
+}
+.container3 .detalhes{
+    text-align: justify;
+    margin-top: 50px;
+    margin-right: 90px;
+    margin-left: 90px;
+    font-family: 'Quicksand', sans-serif; 
+     
+     
+}
+.container3 {
+    margin-bottom: 40px;
+}
+
+
+.detalhes {
+    display: flex;
+    justify-content: space-around;
+}
+
+
+.part1, .part2, .part3, .part4{
+    background-color:  #4076d4;
+    border: 3px solid rgb(70, 68, 68); /* Adicione uma borda se desejar */
+    border-radius: 50%;
+    padding: 20px;
+    color: white;
+    text-align: center;
+    margin: 20px;
+    padding: 20px;
+    
+}
+.carousel-item {
+    align-items: center;
+    /* Alinha verticalmente ao centro */
+    justify-content: center;
+    /* Alinha horizontalmente ao centro */
+    max-height: 75vh;
+    width: 100%;
+    overflow: hidden;
+}
+/* Estilização Parallax */
+.parallax {
+    background-image: url('/app/assets/img-cozinha03.jpg');
+    width: auto;
+    background-size: cover;
+    background-attachment: fixed;
+    height: 60vh;
+    overflow-y: hidden; /* Isso ajuda a ocultar a barra de rolagem vertical */
+}
+
+.parallax-content {
+    background-color: rgba(119, 119, 145, 0.4);
+    height: 100%; /* Isso faz com que o conteúdo ocupe toda a altura da div parallax */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #fff; /* Cor do texto, ajuste conforme necessário */
+    font-size: 24px; /* Tamanho da fonte, ajuste conforme necessário */
+}
+@media screen and (max-width: 768px) {
+    .parallax {
+        background-attachment: scroll; /* Altere para scroll em dispositivos móveis */
+        height: 40vh; /* Ajuste a altura conforme necessário */
+    }
+    
+    .parallax-content {
+        background-color:   rgba(119, 119, 145, 0.4); /* Ajuste a cor de fundo conforme necessário */
+    }
+}
+.navbar.navbar-expand-lg .nav-link {
+    color: white;
+}
+/***************************Efeito Parallax******************************/
+/*************************Sociedades***********************/
+#services-area{
+    margin-top: 120px;
+    margin-bottom: 120px;
+    font-family:  'Quicksand', sans-serif;
+
+}
+.main-title{
+    margin-bottom: 45px ;
+}
+.service-box {
+	text-align: center;
+	margin-bottom: 50px;
+}
+
+
+.service-box i,
+.service-box h4 {
+	transition: all 0.5s;
+}
+
+.service-box i {
+	font-size: 36px;
+	margin-bottom: 20px;
+	color: #444;
+}
+
+.service-box h4 {
+	font-size: 24px;
+	margin-bottom: 20px;
+}
+
+.service-box:hover>i,
+.service-box:hover>h4 {
+	color: #65daf9;
+	transform: scale(1.2);
+}
+
+
+/****************************Efeito Parallax*******************************/
+
+/****************************Estilição de footer*******************************/
+
+
+#footer-container {
+    display: flex;
+    flex-wrap: wrap; /* Permitir que as colunas quebrem para a próxima linha em telas menores */
+    justify-content: space-around; /* Espaço igual entre as colunas */
+    align-items: flex-start; /* Alinhar as colunas ao topo */
+    padding: 15px; /* Adicionar espaçamento interno */
+}
+@media screen and (max-width: 400px) {
+    #footer-container {
+        width: 100%;
+        flex-direction: column; /* Alterar a direção para uma única coluna */
+        justify-content: flex-start; /* Alinhar o conteúdo ao topo */
+        align-items: center; /* Centralizar o conteúdo horizontalmente */
+        padding: 15px; /* Adicionar espaçamento interno */
+    }
+}
+
+
+.coluna-end, .coluna-atend, .coluna-redes-sociais {
+    flex: 1; /* Distribuir espaço igualmente entre as colunas */
+    max-width: 33%; /* Limitar a largura máxima de cada coluna em 33% */
+    padding: 15px; /* Adicionar espaçamento interno */
+    box-sizing: border-box; /* Garantir que o padding não afete o tamanho total */
+    text-align: center; /* Centralizar o conteúdo no centro das colunas */
+}
+@media screen and (max-width: 600px) {
+    .coluna-end, .coluna-atend, .coluna-redes-sociais {
+        flex: 1; /* Distribuir espaço igualmente entre as colunas */
+        max-width: 100%; /* Limitar a largura máxima de cada coluna em 33% */
+        padding: 15px; /* Adicionar espaçamento interno */
+        box-sizing: border-box; /* Garantir que o padding não afete o tamanho total */
+        text-align: center; /* Centralizar o conteúdo no centro das colunas */
+    }
+}
+@media screen and (max-width: 400px) {
+    .coluna-end, .coluna-atend, .coluna-redes-sociais {
+        flex: 1; /* Distribuir espaço igualmente entre as colunas */
+        max-width: 100%; /* Limitar a largura máxima de cada coluna em 33% */
+        padding: 15px; /* Adicionar espaçamento interno */
+        box-sizing: border-box; /* Garantir que o padding não afete o tamanho total */
+        text-align: center; /* Centralizar o conteúdo no centro das colunas */
+    }
+}
+footer {
+    width: 100%;
+    font-family: 'Quicksand', sans-serif;
+    background-color: #343641;
+    color: white;
+    text-align: center; /* Centralizar o texto no centro do footer */
+}
+
+.fab {
+    font-size: 25px;
+    padding: 8px;
+    margin: 5px;
+    background-color: rgb(34, 33, 33);
+    border-radius: 50%;
+    border: white solid 0.5px;
+    color: rgb(226, 221, 224);
+}
+
+.fab:hover {
+    background-color: rgb(66, 71, 71);
+    transition-duration: 0.7s;
+}
+
+.coluna-redes-sociais h3 {
+    margin: 0; /* Remover margem direita negativa */
+}
+
+
+.button {
+    display: flex;
+    justify-content: flex-start;
+}
+
+.button button {
+    margin-right: 10px; /* Espaçamento entre os botões (opcional) */
+}
+
+
+/* Estilo adicional para as colunas */
+.collapse navbar-collapse{
+    text-align: left;
+}
+navbar-nav{
+    text-align: right;
+
+}
+
+
+.carousel-item {
+    align-items: center;
+    /* Alinha verticalmente ao centro */
+    justify-content: center;
+    /* Alinha horizontalmente ao centro */
+    max-height: 80vh;
+    width: 100%;
+    overflow: hidden;
+}
